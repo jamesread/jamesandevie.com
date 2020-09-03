@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'readingregular';
+    src: url('../webfonts/reading_regular-webfont.woff2') format('woff2'),
+         url('../webfonts/reading_regular-webfont.woff') format('woff');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'day_romanregular';
+    src: url('../webfonts/dayrom__-webfont.woff2') format('woff2'),
+         url('../webfonts/dayrom__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	color: #494a4b;
+	font-family: sans-serif;
+}
+
+header {
+	background-color: #fafafa;
+	border-bottom: 1px solid #999;
+	padding: 1em;
+	text-align: center;
+	background-image: url(../images/leaves1.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	background-size: 15%;
+}	
+
+h2 {
+	margin-top: 0;
+	font-family: 'day_romanregular';
+	font-variant: small-caps;
+	font-weight: 100;
+}
+
+h1 {
+	color: 97a88f;
+	font-weight: 500;
+	font-family: 'readingregular', cursive;
+	font-size: 450%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+nav li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	display: inline-block;
+	font-size: small;
+}
+
+nav li a {
+	padding: 1em;	
+	border-bottom: 1px solid #999;;
+}
+
+nav li a:hover {
+	border-bottom: 3px solid #97a88f;
+	text-decoration: none;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: gray;
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+main {
+	line-height: 1.5;
+text-align: center;
+	width: 40%;
+	margin: auto;
+}
+
+main img {
+	max-width: 100%;
+	border: 2px solid white;
+	outline: 1px solid black;
+}
+
+footer {
+    font-family: 'day_romanregular';
+	text-transform: uppercase;
+	padding: 1em;
+	text-align: center;
+	border-top: 1px dashed #999;
+	width: 20%;
+	margin: auto;
+}
+
+p.subtle {
+    font-family: sans-serif;
+	text-transform: none;
+	color: #bbb;
+}
+
+@media only screen and (max-width: 600px) {
+div#insideHeader {
+	width: auto;
+	margin: auto;
+}
+
+main {
+	width: auto;
+	padding: .5em;
+}
+
+footer {
+	width: auto;
+}
+}
+
+
