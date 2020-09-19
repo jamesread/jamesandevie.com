@@ -8,13 +8,13 @@ require_once 'includes/widgets/header.php';
 
 <p>We're leaving on the Sunday after the wedding, and headed off to Singapore, Bali and Japan! Looking forward to uninterupted time together and away from the real world!</p>
 
-<img src = "singapore.jpg" width = "60%" /><br />
+<img src = "resources/images/singapore.jpg" width = "60%" /><br />
 <h2>Singapore</h2><br />
 
-<img src = "bali.jpg" width = "60%" /><br />
+<img src = "resources/images/bali.jpg" width = "60%" /><br />
 <h2>Bali</h2><br />
 
-<img src = "japan.jpg" width = "60%" /><br />
+<img src = "resources/images/japan.jpg" width = "60%" /><br />
 <h2>Japan</h2><br />
 
 <?php
