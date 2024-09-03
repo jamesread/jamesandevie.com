@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -14,7 +15,6 @@
 	<header>
 		<div id = "insideHeader">
 			<h1>James Read & Bonnie Evie Gifford</h1>
-			<h2><u>Got married</u> on 21st september 2019!</h2>
 		</div>
 	</header>
 
@@ -22,7 +22,6 @@
 			<nav>
 				<ul>
 				<li><a href = "/">Home</a></li>
-				<li><a href = "/photos">Wedding Photos</a></li>
 				<li><a href = "/contact">Contact</a></li>
 				</ul>
 			</nav>
