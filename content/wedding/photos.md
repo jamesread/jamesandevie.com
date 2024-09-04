@@ -1,8 +1,6 @@
-<?php
-
-require_once 'includes/widgets/header.php';
-
-?>
+---
+title: Photos
+---
 
 <h2>Dino Adventures</h2>
 <p>
@@ -46,8 +44,4 @@ The dinos now have their own website... <a href = "http://dino-adventures.com">h
 
 <br /><br />
 
-<?php
 
-require_once 'includes/widgets/footer.php';
-
-?>

@@ -1,14 +1,6 @@
-<?php
-
-require_once 'includes/widgets/header.php';
-
-function idea($title, $cost) {
-	echo "<div><strong>$title</strong><br />";
-	echo "<a style = \"text-transform: none \" href = \"http://paypal.me/jamesandevie/$cost\">Gift &pound;$cost</a><br /><br />";
-	echo "</div>";
-}
-
-?>
+---
+title: "Gifts"
+---
 
 <p>The biggest gift that you can give is the celebration of our marriage, 
 however, should you wish to give a wedding gift a contribution towards our 
@@ -26,7 +18,7 @@ If you'd like to make a contribution online, we have a groovy PayPal link... <br
 <h2>Ideas</h2>
 
 
-<?php
+{{/*
 
 idea('Ramen! Nom nom nom!', 5);
 idea('A Singapore sling...?!', 10);
@@ -38,12 +30,9 @@ idea('Adventurous jungle excursion in Bali', 50);
 idea('A fancy candlelit dinner for two in Bali', 75);
 idea('Something silly...', 100);
 
-?>
+*/}}
+
 <h2>Other</h2>
 <p>If you'd like to donate a custom amount, <a style = "text-transform: none;" href = "http://paypal.me/jamesandevie">click here</a>. Thank you!
 <p>
-<?php
 
-require_once 'includes/widgets/footer.php';
-
-?>

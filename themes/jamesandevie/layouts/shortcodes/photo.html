@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $link := .Get "link" }}
+
+<div class = "photo">
+	<a href = "{{ $link }}">
+	<img src = "{{ $src }}" alt = "{{ $alt }}" class = "photo" />
+	</a>
+</div>

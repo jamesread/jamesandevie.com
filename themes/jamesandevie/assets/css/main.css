@@ -26,18 +26,17 @@ header {
 	border-bottom: 1px solid #999;
 	padding: 1em;
 	text-align: center;
-	background-image: url(../images/leaves1.png);
+	background-image: url('/leaves1.png');
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	background-size: 15%;
 }	
 
-.photoLink {
+div.photo {
   text-align: center;
-  display: block;
 }
 
-.photoLink img {
+div.photo img {
   width: 75%;
 }
 
